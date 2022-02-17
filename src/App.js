@@ -1,7 +1,3 @@
-import React, { useState } from "react";
-import ToDo from "./ToDo";
-import './App.css';
-
 function App() {
   //We will be adding in state variables here
 
