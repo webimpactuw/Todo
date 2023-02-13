@@ -1,10 +1,7 @@
-// Import statements
+import React from "react";
+import { IoCheckboxOutline } from "react-icons/io5";
 
 const ToDo = (props) => {
-    // Keeps track of the checked state of the to-do item
-    
-    // Changes the checked state of the to-do item
-    
     return (
         <div style={{
             border: "2px solid black",
@@ -14,11 +11,7 @@ const ToDo = (props) => {
             display: "flex",
             alignItems: "center"
         }}>
-            {checked ?
-                <IoCheckboxOutline size={30} style={{ "margin": "0px 10px" }} onClick={toggleChecked}/>
-                : 
-                <IoSquareOutline size={30} style={{ "margin": "0px 10px" }} onClick={toggleChecked}/>
-            }
+            <IoCheckboxOutline size={30} style={{ "margin": "0px 10px" }}/>
             <h2>{props.text}</h2>
         </div>
     );
