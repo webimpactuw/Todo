@@ -1,9 +1,15 @@
-//What do we import?
+// Import statements
 
 function App() {
-  //We will be adding in state variables here
+  // Stores all the to-do items
+  
+  // Stores the user input
+  
+  // Initializes random to-dos on load
 
-  //We will be adding in methods here
+  // Updates the user input value
+  
+  // Adds a new to-do list item
 
   return (
     <div className="App">
@@ -15,7 +21,7 @@ function App() {
       </div>
 
       <div className="toDos">
-        {/*Figure out how to display the items*/}
+        {toDo.map(t => <ToDo text={t} key={Math.random()}/>)}
       </div>
     </div>
   );
