@@ -1,15 +1,9 @@
-// Import statements
+// TODO: what do we need to import here?
 
 function App() {
-  // Stores all the to-do items
+  // TODO: what kinds of state variables should we track?
   
-  // Stores the user input
-  
-  // Initializes random to-dos on load
-
-  // Updates the user input value
-  
-  // Adds a new to-do list item
+  // TODO: what methods should go here?
 
   return (
     <div className="App">
@@ -21,7 +15,7 @@ function App() {
       </div>
 
       <div className="toDos">
-        {toDo.map(t => <ToDo text={t} key={Math.random()}/>)}
+        {/*We need to display all the to-do items here in one line.*/}
       </div>
     </div>
   );
