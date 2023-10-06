@@ -8,14 +8,14 @@ function App() {
   return (
     <div className="App">
       <div className="input">
-        <input placeholder="What's on your mind?" value={input} onChange={updateInput}/>
-        <button onClick={addToDo}>
+        <input placeholder="What's on your mind?" value={input} onChange={/*TODO: what method goes here?*/}/>
+        <button onClick={/*TODO: what method goes here?*/}>
           + Add
         </button>
       </div>
 
       <div className="toDos">
-        {/*We need to display all the to-do items here in one line.*/}
+        {/*TODO: we need to display all the to-do items here in one line.*/}
       </div>
     </div>
   );
